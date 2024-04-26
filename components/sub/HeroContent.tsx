@@ -98,10 +98,10 @@ const HeroContent = () => {
               />
             </div>
             <div className="p-2">
-              <a href="./public/ArulkumaranResume.pdf"download><button className="inline-block px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">
+              {/* <a href="./public/ArulkumaranResume.pdf"download><button className="inline-block px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">
                 Download CV
               </button>
-              </a>
+              </a> */}
               {/* <a href="ArulkumaranResume.pdf" download="ArulkumaranResume.pdf">
                 Download PDF
               </a> */}
