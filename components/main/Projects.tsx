@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 
@@ -22,9 +23,9 @@ const Projects = () => {
           description="A responsive website with CRUD functionalities build using React and Django."
         />
         <ProjectCard
-          src=""
-          title="Ml model"
-          description="A machine learning model developed using Scikit-learn  "
+          src="./carParkingCounter1.mp4"
+          title="Car Parking Counter"
+          description="Detect available car parking space with help of computer vision and image processing.  "
         />
       </div>
     </div>
