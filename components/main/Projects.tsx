@@ -11,19 +11,19 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full flex  mb-5 flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src=""
           title="Sales Dashboard"
           description="A dynamic website build using MERN stack and TailwinCss"
         />
         <ProjectCard
-          src=""
-          title="Book store"
-          description="A responsive website with CRUD functionalities build using React and Django."
+          src="weather_app.PNG"
+          title="Weather Forecast"
+          description="A weather forecast website build by integrating https://openweathermap.org/api API for weather data ."
         />
         <ProjectCard
-          src="./carParkingCounter1.mp4"
+          src="./carParkingCounter2.mp4"
           title="Car Parking Counter"
           description="Detect available car parking space with help of computer vision and image processing.  "
         />
