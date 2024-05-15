@@ -7,10 +7,7 @@ interface ButtonProps {
 }
 
 const ClickableButton: React.FC<ButtonProps> = ({ imageUrl, linkUrl }) => {
-  const handleClick = () => {
-    // Navigate to the link URL when the button is clicked
-    window.location.href = linkUrl;
-  };
+
 
   return (
     <a href={linkUrl} target="_blank" rel="noopener noreferrer" className="clickable-button">

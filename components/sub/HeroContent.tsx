@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromRight } from "@/utils/motion";
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 import Image from "next/image";
 import ClickableButton from "./ClickableButton";
@@ -42,16 +43,6 @@ const HeroContent = () => {
       className="flex flex-row items-center justify-center  px-20 mt-16 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center items-center m-auto text-start">
-        {/* <motion.div
-          variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
-        >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
-          </h1>
-        </motion.div> */}
-
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 justify-center items-center whitespace-nowrap text-xl  md:text-4xl lg:text-6xl font-bold  text-white  w-auto h-auto"
@@ -83,7 +74,7 @@ const HeroContent = () => {
           </motion.p>
           <motion.div
             variants={slideInFromLeft(0.5)}
-            className="flex flex-row gap-6 py-5 justify-center items-center whitespace-nowrap  font-bold  w-auto h-auto"
+            className="flex flex-row gap-3 py-5 justify-center items-center whitespace-nowrap  font-bold  w-auto h-auto"
           >
             <div className="p-2  border-[2px]  border-cyan-500">
               <ClickableButton
@@ -97,11 +88,18 @@ const HeroContent = () => {
                 linkUrl="https://www.linkedin.com/in/arulkumarandatascience/"
               />
             </div>
-            <div className="p-2">
-              {/* git */}
-              {/* <a href="ArulkumaranResume.pdf" download="ArulkumaranResume.pdf">
-                Download PDF
-              </a> */}
+            <div className="group p-2 rounded-md border-[2px] text-white bg-blue-600 hover:bg-blue-500 border-blue-700">
+              <a
+                href="/ArulkumaranResume.pdf"
+                download={"ArulkumaranResume.pdf"}
+              >
+                <div className="flex items-center space-x-2 ">
+                  <p className="m-0">Download CV</p>
+                  <div>
+                    <MdOutlineFileDownload size={"30px"} />
+                  </div>
+                </div>
+              </a>
             </div>
           </motion.div>
           <motion.div
@@ -113,7 +111,7 @@ const HeroContent = () => {
               alt="my_pic"
               height={175}
               width={175}
-              className=" border rounded-full  hover:shadow-lg hover:shadow-blue-900 border-cyan-200 "
+              className=" border rounded-full   border-cyan-200 "
             />
           </motion.div>
         </div>

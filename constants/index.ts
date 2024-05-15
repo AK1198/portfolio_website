@@ -422,64 +422,59 @@ export const Others = [
   //   height: 70,
   // },
 ];
-export const timelineElements = [
+export const careerData = [
   {
-    id: 1,
-    title: "Frontend Developer",
-    location: "Dragontail, Ascana",
-    description:
-      "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-    buttonText: "View Frontend Projects",
-    date: "August 2016 - present",
-    icon: "work",
+    company: "Insaix Innovation Sdn Bhd",
+    duration: "Jan 2023 - Present",
+    position: "Full-Stack Developer",
+    responsibilities: [
+      "Develop new features and pages in response to client requirements or project specifications",
+      "Enhance user interface, ensuring a visually appealing design, and implementing UI components according to provided mockups",
+      "Perform bug fixes and ad-hoc tasks",
+      "Document code and processes",
+      "Deploy and maintain website on AWS EC2",
+      "Conduct proactive research on emerging technologies",
+    ],
   },
   {
-    id: 2,
-    title: "Backend Developer",
-    location: "Skystead, Craonia",
-    description:
-      "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-    buttonText: "View Backend Projects",
-    date: "June 2013 - August 2016",
-    icon: "work",
+    company: "Fave",
+    duration: "Jul 2022-Jan 2023",
+    position: "Software Engineer",
+    responsibilities: [
+      "Maintain Microservices projects",
+      "Collaborate with team members for bug fixes",
+      "Create JUNIT tests",
+    ],
   },
   {
-    id: 3,
-    title: "Quality Assurance Engineer",
-    location: "South Warren, Geshington",
-    description:
-      "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-    buttonText: "Company Website",
-    date: "September 2011 - June 2013",
-    icon: "work",
+    company: "Omnilytics Sdn Bhd",
+    duration: "Mar 2022-Jul 2022",
+    position: "Data Scientist Intern",
+    responsibilities: [
+      "Perform data analysis, focusing on identifying trends, and patterns",
+      "Refactored existing codebase to eliminate redundancy leading to easier maintenance",
+      "Documented codebase thoroughly",
+    ],
   },
   {
-    id: 4,
-    title: "Oak Ridge College",
-    location: "South Warren, Geshington",
-    description:
-      "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-    buttonText: "Course Certificate",
-    date: "September 2011",
-    icon: "school",
+    company: "Hershey Malaysia Sdn.Bhd",
+    duration: "Sep 2021-Mar 2022",
+    position: "Project Engineer",
+    responsibilities: [
+      "Perform data analysis, focusing on identifying trends, and patterns",
+      "Refactored existing codebase to eliminate redundancy leading to easier maintenance",
+      "Documented codebase thoroughly",
+    ],
   },
   {
-    id: 5,
-    title: "Hawking College",
-    location: "Skystead, Craonia",
-    description:
-      "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-    buttonText: "College Projects",
-    date: "2007 - 2011",
-    icon: "school",
-  },
-  {
-    id: 6,
-    title: "Marble Hills Grammar School",
-    location: "Dragontail, Ascana",
-    description:
-      "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-    date: "2003 - 2007",
-    icon: "school",
+    company: "Cape Ems Manufacturing Sdn Bhd",
+    duration: "Oct 2020-Aug 2021",
+    position: "Engineer",
+    responsibilities: [
+      "Perform data analysis, focusing on identifying trends, and patterns",
+      "Refactored existing codebase to eliminate redundancy leading to easier maintenance",
+      "Documented codebase thoroughly",
+    ],
   },
 ];
+

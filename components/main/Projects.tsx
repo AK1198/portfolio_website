@@ -1,31 +1,56 @@
-"use client"
-import React from "react";
+"use client";
+import { useEffect, useState } from "react";
 import ProjectCard from "../sub/ProjectCard";
 
 const Projects = () => {
+  const imageUrls = ["/agri.png", "/summary.png", "/advance.png"];
+  const interval = 5000;
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Function to navigate to the next image
+  const goToNextImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === imageUrls.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  useEffect(() => {
+    // Start auto navigation on component mount
+    const intervalId = setInterval(goToNextImage, interval);
+
+    // Clean up interval on component unmount
+    return () => clearInterval(intervalId);
+  }, []); // Run effect only once on mount
   return (
     <div
-      className="flex flex-col items-center justify-center "
+      className=" flex flex-col items-center justify-center "
       id="projects"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
-      <div className="h-full w-full flex  mb-5 flex-col md:flex-row gap-10 px-10">
+      <div className="h-full md:w-full flex flex-1 mb-5 flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src=""
-          title="Sales Dashboard"
-          description="A dynamic website build using MERN stack and TailwinCss"
+          src={imageUrls[currentImageIndex]}
+          title="Smart Agri Dashboard"
+          description="A responsive and intuitive platform tailored specifically for agricultural monitoring "
+          repoLink="https://github.com/AK1198?tab=repositories"
+          demoLink="https://github.com/AK1198?tab=repositories"
         />
+
         <ProjectCard
-          src="weather_app.PNG"
+          src="/weather_app.PNG"
           title="Weather Forecast"
-          description="A weather forecast website build by integrating https://openweathermap.org/api API for weather data ."
+          description=" A website offering comprehensive real-time weather insights ,utilizing data sourced from a reliable public API. "
+          repoLink="https://github.com/AK1198?tab=repositories"
+          demoLink=""
         />
         <ProjectCard
-          src="./carParkingCounter2.mp4"
+          src="/carParkingCounter2.mp4"
           title="Car Parking Counter"
           description="Detect available car parking space with help of computer vision and image processing.  "
+          repoLink="https://github.com/AK1198?tab=repositories"
+          demoLink=""
         />
       </div>
     </div>

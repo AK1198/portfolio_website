@@ -1,7 +1,5 @@
 "use client";
-import Image from "next/image";
-import router from "next/router";
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -16,8 +14,8 @@ const Navbar = () => {
   };
  
   return (
-    <div className="w-full items-center justify-between px-4 py-4 h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50  ">
-      <div className="flex justify-between items-center flex-row">
+    <div className=" w-full items-center justify-between px-4 py-4 h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50  ">
+      <div className="z-50 flex justify-between items-center flex-row">
         <div className="md:hidden  text-white text-xl">ARULKUMARAN</div>
         <button
           className="text-3xl md:hidden bg-blue-800 cursor-pointer"
@@ -79,22 +77,6 @@ const Navbar = () => {
         </div>
       )}
       <div className="w-full  hidden h-full md:flex flex-row items-center justify-center m-auto px-[10px]">
-        {/* <a
-          href="# about-me"
-          className="h-auto w-auto flex flex-row items-center"
-        >
-          <Image
-            src="/NavLogo.png"
-            alt="logo"
-            width={70}
-            height={70}
-            className="cursor-pointer hover:animate-slowspin"
-          />
-
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            Arulkumaran
-          </span>
-        </a> */}
 
         <div className="w-[500px] h-full  hidden md:flex flex-row items-center justify-between ">
           <div className="flex items-center  justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e]  rounded-full text-gray-200">
