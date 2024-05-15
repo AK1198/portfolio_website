@@ -18,7 +18,7 @@ const ProjectCard = ({
   const isVideo =
     src.endsWith(".mp4") || src.endsWith(".webm") || src.endsWith(".mkv");
   return (
-    <div className="relative flex-1 rounded-lg shadow-lg border border-[#2A0E61]">
+    <div className="relative overflow-hidden flex-1 rounded-lg shadow-lg border   border-cyan-600">
       {isVideo ? (
         <video
           src={src}
@@ -40,7 +40,7 @@ const ProjectCard = ({
           alt={title}
           width={1000}
           height={1000}
-          className="w-full object-fill h-52"
+          className="w-full  object-fill h-52"
         />
       )}
 
