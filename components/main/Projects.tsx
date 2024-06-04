@@ -42,14 +42,14 @@ const Projects = () => {
           src="/weather_app.PNG"
           title="Weather Forecast"
           description=" A website offering comprehensive real-time weather insights ,utilizing data sourced from a reliable public API. "
-          repoLink="https://github.com/AK1198?tab=repositories"
-          demoLink=""
+          repoLink="https://github.com/AK1198/weather-app-nextjs"
+          demoLink="https://weather-app-nextjs-git-main-ak1198s-projects.vercel.app/"
         />
         <ProjectCard
           src="/carParkingCounter2.mp4"
           title="Car Parking Counter"
           description="Detect available car parking space with help of computer vision and image processing.  "
-          repoLink="https://github.com/AK1198?tab=repositories"
+          repoLink="https://github.com/AK1198/carParkingDetection"
           demoLink=""
         />
       </div>
