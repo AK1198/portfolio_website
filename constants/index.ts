@@ -430,6 +430,7 @@ export const careerData = [
     responsibilities: [
       "Develop new features and pages in response to client requirements or project specifications",
       "Enhance user interface, ensuring a visually appealing design, and implementing UI components according to provided mockups",
+      "Implemented YOLOv4 for a computer vision project, achieving high-precision object detection in real-time applications",
       "Perform bug fixes and ad-hoc tasks",
       "Document code and processes",
       "Deploy and maintain website on AWS EC2",
@@ -461,9 +462,7 @@ export const careerData = [
     duration: "Sep 2021-Mar 2022",
     position: "Project Engineer",
     responsibilities: [
-      "Perform data analysis, focusing on identifying trends, and patterns",
-      "Refactored existing codebase to eliminate redundancy leading to easier maintenance",
-      "Documented codebase thoroughly",
+     
     ],
   },
   {
@@ -471,9 +470,7 @@ export const careerData = [
     duration: "Oct 2020-Aug 2021",
     position: "Engineer",
     responsibilities: [
-      "Perform data analysis, focusing on identifying trends, and patterns",
-      "Refactored existing codebase to eliminate redundancy leading to easier maintenance",
-      "Documented codebase thoroughly",
+     
     ],
   },
 ];

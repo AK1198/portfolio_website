@@ -90,8 +90,8 @@ const HeroContent = () => {
             </div>
             <div className="group p-2 rounded-md border-[2px] text-white bg-blue-600 hover:bg-blue-500 border-blue-700">
               <a
-                href="/ArulkumaranResume.pdf"
-                download={"ArulkumaranResume.pdf"}
+                href="/Arulkumaran_Resume.pdf"
+                download={"Arulkumaran_Resume.pdf"}
               >
                 <div className="flex items-center space-x-2 ">
                   <p className="m-0">Download CV</p>
