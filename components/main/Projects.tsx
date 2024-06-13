@@ -39,7 +39,7 @@ const Projects = () => {
           title="House Price Prediction"
           description=" A website offering price prediction for houses in Boston . "
           repoLink="https://github.com/AK1198/bostonhousepricing"
-          demoLink="http://3.104.63.239/"
+          demoLink=""
         />
         <ProjectCard
           src="/weather_image.jpg"
