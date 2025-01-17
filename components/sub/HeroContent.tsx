@@ -88,7 +88,7 @@ const HeroContent = () => {
                 linkUrl="https://www.linkedin.com/in/arulkumarandatascience/"
               />
             </div>
-            <div className="group p-2 rounded-md border-[2px] text-white bg-blue-600 hover:bg-blue-500 border-blue-700">
+            {/* <div className="group p-2 rounded-md border-[2px] text-white bg-blue-600 hover:bg-blue-500 border-blue-700">
               <a
                 href="/Arulkumaran_Resume_updated.pdf"
                 download={"Arulkumaran_Resume.pdf"}
@@ -100,7 +100,7 @@ const HeroContent = () => {
                   </div>
                 </div>
               </a>
-            </div>
+            </div> */}
           </motion.div>
           <motion.div
             variants={slideInFromRight(0.8)}
