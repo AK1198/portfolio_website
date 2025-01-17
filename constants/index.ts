@@ -130,7 +130,7 @@ export const Skill_data = [
     skill_name: "Pandas",
     Image: "/pandas_logo.svg",
     width: 70,
-    height:70,
+    height: 70,
   },
   {
     skill_name: "Numpy",
@@ -298,7 +298,7 @@ export const Backend_skill = [
   {
     skill_name: "Flask",
     Image: "/flask_logo.png",
-    
+
     width: 80,
     height: 80,
   },
@@ -424,6 +424,21 @@ export const Others = [
 ];
 export const careerData = [
   {
+    company: "Invenio Potential Sdn Bhd",
+    duration: "July 2024 - Present",
+    position: "Full-Stack Developer",
+    responsibilities: [
+      "✅Lead a team of software developers (frontend, backend, and full-stack) across multiple projects and initiatives",
+      "✅Oversee the development of web applications, dashboards, and backend services using Next.js, FastAPI, and Python",
+      "✅Ensure efficient management of microservices structures and seamless integration of backend and frontend systems",
+      "✅Provide technical guidance and code reviews to ensure high-quality, maintainable, and scalable code",
+      "✅Collaborate with stakeholders to define project scope, gather requirements, and establish clear objectives",
+      "✅Drive the development of utilities analysis tools, billing systems, and OCR-based document processing solutions",
+      "✅Design API architecture and documentation to ensure clear communication between frontend and backend teams",
+      "✅Promote DevOps best practices, such as containerization with Docker, CI/CD, and version control",
+    ],
+  },
+  {
     company: "Insaix Innovation Sdn Bhd",
     duration: "Jan 2023 - Present",
     position: "Full-Stack Developer",
@@ -461,17 +476,12 @@ export const careerData = [
     company: "Hershey Malaysia Sdn.Bhd",
     duration: "Sep 2021-Mar 2022",
     position: "Project Engineer",
-    responsibilities: [
-     
-    ],
+    responsibilities: [],
   },
   {
     company: "Cape Ems Manufacturing Sdn Bhd",
     duration: "Oct 2020-Aug 2021",
     position: "Engineer",
-    responsibilities: [
-     
-    ],
+    responsibilities: [],
   },
 ];
-
